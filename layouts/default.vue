@@ -4,7 +4,7 @@
     <ColorMode />
     <Lang />
     <Nuxt />
-    <!-- <Footer /> -->
+    <Footer />
   </main>
 </template>
 <script>

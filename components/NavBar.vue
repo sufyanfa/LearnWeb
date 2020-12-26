@@ -1,6 +1,6 @@
 <template>
     <nav class="w-full">
-        <div class="container mx-auto px-6 py-6 md:py-0 flex items-center justify-between">
+        <div class="container mx-auto px-6 sm:px-12 lg:px-16  py-6 md:py-0 flex items-center justify-between">
             <div class="flex items-center">
                 <img class="cursor-pointer w-8 h-8 sm:w-auto" src="/logo.svg" alt="">
                 <p class="text-base lg:text-2xl font-bold text-gray-800 dark:text-gray-400" :class="$i18n.locale == 'ar' ? 'mr-2' : 'ml-2'">{{$t('name')}}</p>
@@ -22,10 +22,10 @@
                         </svg>
                     </div>
                     <ul class="flex text-3xl md:text-base items-center py-6 md:flex flex-col md:flex-row justify-center fixed md:relative top-0 bottom-0 left-0 right-0 bg-white z-20 dark:bg-gray-900">
-                        <li class="text-gray-600 hover:text-gray-800 cursor-pointer pt-10 md:pt-0 md:mr-10"><a href="javascript: void(0)">{{$t('nav.home')}}</a></li>
-                        <li class="text-gray-600 hover:text-gray-800 cursor-pointer pt-10 md:pt-0 md:mr-10"><a href="javascript: void(0)">{{$t('nav.learn')}}</a></li>
-                        <li class="text-gray-600 hover:text-gray-800 cursor-pointer pt-10 md:pt-0 md:mr-10"><a href="javascript: void(0)">{{$t('nav.res')}}</a></li>
-                        <li class="text-gray-600 hover:text-gray-800 cursor-pointer pt-10 md:pt-0 md:mr-10"><a href="javascript: void(0)">{{$t('nav.blog')}}</a></li>
+                        <li class="text-gray-600 hover:text-gray-800 cursor-pointer pt-10 md:pt-0 md:mr-10"><a href="/">{{$t('nav.home')}}</a></li>
+                        <li class="text-gray-600 hover:text-gray-800 cursor-pointer pt-10 md:pt-0 md:mr-10"><a href="/">{{$t('nav.learn')}}</a></li>
+                        <li class="text-gray-600 hover:text-gray-800 cursor-pointer pt-10 md:pt-0 md:mr-10"><a href="/">{{$t('nav.res')}}</a></li>
+                        <li class="text-gray-600 hover:text-gray-800 cursor-pointer pt-10 md:pt-0 md:mr-10"><a href="/">{{$t('nav.blog')}}</a></li>
                         <a href="" class="cursor-pointer pt-10 md:pt-0" :class="$i18n.locale == 'ar' ? 'md:mr-10' : 'md:mr-0' "> <button class="btn text-gray-200 bg-gray-900 hover:bg-gray-800 dark:bg-gray-800">
                            {{$t('nav.start')}}
                             </button>

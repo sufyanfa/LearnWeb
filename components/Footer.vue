@@ -1,52 +1,38 @@
 <template>
   <footer>
-    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto px-6 sm:px-12 lg:px-16">
       <div class="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
         <div class="sm:col-span-12 lg:col-span-3">
           <div class="mb-2">
             <a class="inline-block" aria-label="Cruip" href="/" style="outline: none;">
-              <svg class="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                <defs><radialGradient cx="21.152%" cy="86.063%" fx="21.152%" fy="86.063%" r="79.941%" id="footer-logo"><stop stop-color="#4FD1C5" offset="0%"></stop> <stop stop-color="#81E6D9" offset="25.871%"></stop> <stop stop-color="#338CF5" offset="100%"></stop></radialGradient></defs><rect width="32" height="32" rx="16" fill="url(#footer-logo)" fill-rule="nonzero"></rect>
-              </svg>
+              <img class="h-8 w-8" src="/logo.svg" alt="">
             </a>
           </div>
           <div class="text-sm text-gray-600">
             <a class="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out" href="/" style="outline: none;">Terms</a>
             ·
-            <a
-              class="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"
-              href="/"
-              style="outline: none;"
-              >Privacy Policy</a
-            >
+            <a class="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out" href="/" style="outline: none;">
+            Privacy Policy
+            </a>
           </div>
         </div>
         <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
           <h6 class="text-gray-800 font-medium mb-2">Products</h6>
           <ul class="text-sm">
             <li class="mb-2">
-              <a
-                class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                href="/"
-                style="outline: none;"
-                >Web Studio</a
-              >
+              <a class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out" href="/" style="outline: none;">
+                Web Studio
+              </a>
             </li>
             <li class="mb-2">
-              <a
-                class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                href="/"
-                style="outline: none;"
-                >DynamicBox Flex</a
-              >
+              <a class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out" href="/" style="outline: none;">
+                DynamicBox Flex
+                </a>
             </li>
             <li class="mb-2">
-              <a
-                class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                href="/"
-                style="outline: none;"
-                >Programming Forms</a
-              >
+              <a class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out" href="/" style="outline: none;">
+                Programming Forms
+              </a>
             </li>
             <li class="mb-2">
               <a
@@ -241,9 +227,9 @@
           Made by
           <a
             class="text-blue-600 hover:underline"
-            href="https://cruip.com/"
+            href="https://sufyanfa.netlify.app/"
             style="outline: none;"
-            >Cruip</a
+            >Sufyan</a
           >
           . All rights reserved.
         </div>

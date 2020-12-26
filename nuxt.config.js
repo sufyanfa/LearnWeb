@@ -19,12 +19,13 @@ export default {
       { hid: "twitter:image", name: "twitter:image", content: "https://nuxtjs.org/nuxt-card.png"}
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/logo.svg" },
+      { rel: "icon", type: "image/x-icon", href: "/logo.png" },
       { rel: "stylesheet", href: "https://use.typekit.net/ejq6sey.css" }
     ]
   },
 
   loading: { color: '#41B883' },
+  components: true,
 
   css: [
     '~/assets/css/fonts.css'
@@ -36,7 +37,7 @@ export default {
 
   components: true,
 
-  buildModules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode"],
+  buildModules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode','@nuxtjs/moment','@nuxtjs/pwa',],
 
   modules: ['nuxt-i18n','@nuxt/content'],
 
@@ -76,5 +77,13 @@ export default {
   },
   content: {
     liveEdit: false
-  }
+  },
+  moment: {
+    locales: ['ar-dz']
+  },
+  pwa: {
+    manifest: {
+      name: 'Learn Web'
+    }
+  },
 };

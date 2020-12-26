@@ -2,6 +2,7 @@ export default {
   name: 'Learn Web',
   title : 'Learn about making the web,',
   dic : 'We enable everyone to learn the web in all its fields and sections, and to benefit from nothing of the content',
+  start : 'Start Now',
   free : 'Free',
   nav : {
     home : 'Home',
@@ -20,6 +21,10 @@ export default {
     twodic : 'Define the existing tools and technologies that are used in the web world',
     three : 'Blogs',
     threedic : 'Here we leave the room for everyone with experience in proposing distinct topics and articles',
+  },
+  tech : {
+    title : 'Techniques and tools',
+    dic : 'The set of courses and technologies that are used in the web world'
   },
   blog : {
     title : 'blog',
