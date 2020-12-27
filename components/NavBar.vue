@@ -26,7 +26,7 @@
                         <li class="text-gray-600 hover:text-gray-800 cursor-pointer pt-10 md:pt-0 md:mr-10"><a href="/">{{$t('nav.learn')}}</a></li>
                         <li class="text-gray-600 hover:text-gray-800 cursor-pointer pt-10 md:pt-0 md:mr-10"><a href="/">{{$t('nav.res')}}</a></li>
                         <li class="text-gray-600 hover:text-gray-800 cursor-pointer pt-10 md:pt-0 md:mr-10"><a href="/">{{$t('nav.blog')}}</a></li>
-                        <a href="" class="cursor-pointer pt-10 md:pt-0" :class="$i18n.locale == 'ar' ? 'md:mr-10' : 'md:mr-0' "> <button class="btn text-gray-200 bg-gray-900 hover:bg-gray-800 dark:bg-gray-800">
+                        <a href="" class="cursor-pointer pt-10 md:pt-0" :class="$i18n.locale == 'ar' ? 'md:mr-10' : 'md:mr-0' "> <button class="btn text-gray-200 bg-blue-600 hover:bg-blue-600">
                            {{$t('nav.start')}}
                             </button>
                         </a>

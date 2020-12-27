@@ -9,9 +9,9 @@ export default {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "og:site_name", property: "og:site_name", content: "NuxtJS" },
+      { hid: "og:site_name", property: "og:site_name", content: "LearnWeb" },
       { hid: "og:type", property: "og:type", content: "website" },
-      { hid: "twitter:site", name: "twitter:site", content: "@nuxt_js" },
+      { hid: "twitter:site", name: "twitter:site", content: "@learnweb" },
       { hid: "twitter:card", name: "twitter:card", content: "summary_large_image"},
       { hid: "og:image", property: "og:image", content: "https://nuxtjs.org/nuxt-card.png"},
       { hid: "og:image:secure_url", property: "og:image:secure_url", content: "https://nuxtjs.org/nuxt-card.png"},
@@ -28,11 +28,13 @@ export default {
   components: true,
 
   css: [
-    '~/assets/css/fonts.css'
+    '@fortawesome/fontawesome-svg-core/styles.css'
   ],
 
   plugins: [
-    "~/plugins/dir.js",
+    '~/plugins/dir.js',
+    '~/plugins/fontawesome.js'
+
   ],
 
   components: true,
@@ -83,7 +85,10 @@ export default {
   },
   pwa: {
     manifest: {
-      name: 'Learn Web'
-    }
+      name: 'تعلم الويب',
+      short_name: 'Learn Web',
+      background_color: '#FFFFFF',
+      theme_color: '#F8F8F8'
+    },
   },
 };
